@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "537c6b3cc2a256e1611569fdbf7e369e",
+    "packages": [
+        {
+            "name": "evalue8bv/creditable-paywall",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eValue8bv/creditable-paywall.git",
+                "reference": "d275287867849a2e99b06b22d71f110bfa9b7ae0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eValue8bv/creditable-paywall/zipball/d275287867849a2e99b06b22d71f110bfa9b7ae0",
+                "reference": "d275287867849a2e99b06b22d71f110bfa9b7ae0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Creditable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "eValue8",
+                    "email": "development@evalue8.nl",
+                    "homepage": "https://evalue8.nl"
+                }
+            ],
+            "description": "Official PayWall SDK for Creditable",
+            "keywords": [
+                "api",
+                "creditable",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/eValue8bv/creditable-paywall/issues",
+                "source": "https://github.com/eValue8bv/creditable-paywall/tree/0.4.0"
+            },
+            "time": "2024-03-21T15:42:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

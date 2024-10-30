@@ -1,0 +1,29 @@
+{
+  "name": "evalue8bv/creditable-paywall",
+  "description": "Official PayWall SDK for Creditable",
+  "type": "library",
+  "keywords": [
+    "php",
+    "creditable",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "eValue8",
+      "email": "development@evalue8.nl",
+      "homepage": "https://evalue8.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Creditable\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
